@@ -4,14 +4,7 @@ PayLink is an ultra-fast, beginner-friendly web application designed to eliminat
 
 ## 🚀 Features
 
-### 1. Simple Wallet Connection
-*   Natively integrates with the official **Freighter** wallet extension (`@stellar/freighter-api`).
-*   Intelligent, context-aware checking to ensure the wallet is installed and accessible before making requests.
 
-### 2. Live Balance Checks
-*   Queries the Stellar Horizon testnet in real-time.
-*   Shows current native unlocked XLM balance.
-*   Warns users proactively if they are connecting an unfunded account.
 
 ### 3. Shareable Payment Link Generation
 *   **Flow A (Create):** Define an XLM amount and instantly get a unique copied-link (`/?to=[Address]&amount=[Amount]`).
